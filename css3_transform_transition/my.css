@@ -1,0 +1,48 @@
+.box{
+box-shadow:6px 6px 50px black;
+background-color:red;
+	width:100px;
+	height:100px;
+}
+.box:hover{
+background-color:blue;
+
+transform:translateX(400px) rotate(720deg);
+transition:all 1s linear;
+
+
+-webkit-transform:translateX(400px) rotate(720deg);
+-webkit-transition:all 1s linear;
+/* -moz-transform:translateX(400px) rotate(720deg);
+-moz-transition:all 1s linear;
+-o-transform:translateX(400px) rotate(720deg);
+-o-transition:all 1s linear;
+-ms-transform:translateX(400px) rotate(720deg);
+-ms-transition:all 1s linear; */
+}
+
+
+.box2{
+box-shadow:6px 6px 50px blue;
+background-color:yellow;
+	width:100px;
+	height:100px;
+}
+.box2:hover{
+
+background-color:red;
+position:relative;
+left:400px;
+
+transform:rotate(720deg) scale(2,3) skewX(30deg);
+transition:all 10s ease-in-out 1s;
+
+-webkit-transform:rotate(720deg) scale(2,3) skewX(30deg);
+-webkit-transition:all 10s ease-in-out 1s;
+/* -moz-transform:rotate(720deg) scale(2,3) skewX(30deg);
+-moz-transition:all 10s ease-in-out 1s;
+-o-transform:rotate(720deg) scale(2,3) skewX(30deg);
+-o-transition:all 10s ease-in-out 1s;
+-ms-transform:rotate(720deg) scale(2,3) skewX(30deg);
+-ms-transition:all 10s ease-in-out 1s; */
+}
