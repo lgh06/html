@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>WeBest博客，最好的JSP开源博客</title>
+	<meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="./res/css/bootstrap.css" rel="stylesheet">
+    <link href="./res/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="./res/css/main.css" rel="stylesheet">
+    <style type="text/css">
+	body {
+		padding-top: 60px;
+        padding-bottom: 10px;
+		background-color:#003;
+			}
+		hr{margin:5px auto;}
+	  .btn-inverse{
+		  color:gray;
+		  }
+	   .hero-unit{
+		   margin-bottom:1em;
+		   padding:0.5em 2em;
+		   }
+		 
+		.article{
+			width:60%;
+			/*float:left;*/
+			}
+		.articletip{
+			font-size:70%;}	
+		.rightbar{	
+			background-color:white;
+			width:20%;
+			height:30%;
+			position:fixed;
+			top:5em;
+			right:5em;}
+		footer{
+		/*float:left;*/
+		height:3em;
+		color:white;
+		width:100%;
+		}
+		@media (max-width: 979px) {
+				body{
+				padding-top: 0px;
+			}
+		}
+		@media (max-width: 767px) {
+				.article{
+					width:100%;
+					/*float:left;*/
+			}
+		}
+	</style>
+	<script type="text/javascript" src="./res/js/jquery.js"></script>
+	<script type="text/javascript" src="./res/js/bootstrap.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="./res/js/html5shiv.js"></script>
+    <![endif]-->
+     </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container" style="font-size:16px">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">WeBest Blog</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">首页</a></li>
+              <li id="lgh_change" class="dropdown" onMouseOver="lgh_show()" >
+                <a href="category.html">文章分类<b class="caret"></b></a>
+                <ul class="dropdown-menu" onMouseOut="lgh_hide()">
+                  <li><a href="#">你想重点推荐的分类一</a></li>
+                  <li><a href="#">你想推荐的分类二</a></li>
+                  <li><a href="#">你想推荐的分类三</a></li>
+                </ul>
+              </li>
+              <li><a href="archive.html">文章归档</a></li>
+              <li class="active"><a href="about.html">关于</a></li>
+              <li><a href="chat.html">聊聊天</a></li>
+              
+            </ul>
+            <a class="btn btn-inverse pull-right" href="login.html">登录</a>
+            <!--
+            <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+            -->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    	<!--article区开始-->
+    	<div class="article">
+       	
+  			<div class="hero-unit">
+   			
+      			<h3 >关于</h3>
+      			<p>文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文
+                文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文章摘要文
+                
+                <br><br><br><br><br><br><br><br>
+                </p>
+    		</div>
+            
+            
+		
+        
+        
+		</div><!-- article区结束-->
+        
+        
+        <!--文章列表右侧区域-->
+        <div class="rightbar hidden-phone">
+        待添加
+        </div>
+         
+
+    </div> <!-- container结束 -->
+    
+    <!--底部版权内容-->
+	<footer>
+        <p>&copy; 七龙珠开发组</p>
+      </footer>
+   </body>
+</html>
